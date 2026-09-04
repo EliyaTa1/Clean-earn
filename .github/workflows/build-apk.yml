@@ -1,18 +1,22 @@
 name: Build Android 
 APKon: [push]
+on:
+  workflow_dispatch: # מאפשר הפעלה ידנית
+  push:
+    branches: [ "main" ]
 jobs: 
 build: 
 runs-on: ubuntu-latest
-steps: - 
-uses: actions/checkout@v4 - 
-name: set up JDK 17 
+steps:
+- uses: actions/checkout@v4 
+- name: set up JDK 17 
 uses: actions/setup-java@v4
 with: 
 distribution: 'temurin' 
-java-version: '17' - 
-name: Build APK with Gradle 
-run: ./gradlew assembleDebug - 
-name: Upload APK Artifact 
+java-version: '17'
+- name: Build APK with Gradle 
+run: ./gradlew assembleDebug
+- name: Upload APK Artifact 
 uses: actions/upload-artifact@v4
 with: 
 name: app-debug 
