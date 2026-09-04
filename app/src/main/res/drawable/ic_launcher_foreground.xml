@@ -1,0 +1,47 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.75"
+        android:scaleY="0.75"
+        android:translateX="13.5"
+        android:translateY="13.5">
+        <!-- Tablet/Screen background -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M24,18 L84,18 A10,10 0 0,1 94,28 L94,80 A10,10 0 0,1 84,90 L24,90 A10,10 0 0,1 14,80 L14,28 A10,10 0 0,1 24,18 Z" />
+        <!-- Screen inner -->
+        <path
+            android:fillColor="#1E1B4B"
+            android:pathData="M22,26 L86,26 A4,4 0 0,1 90,30 L90,74 A4,4 0 0,1 86,78 L22,78 A4,4 0 0,1 18,74 L18,30 A4,4 0 0,1 22,26 Z" />
+        <!-- Golden Star / Coin in center -->
+        <path
+            android:fillColor="#FBBF24"
+            android:pathData="M54,34 A18,18 0 1,1 53.99,34 Z" />
+        <path
+            android:fillColor="#F59E0B"
+            android:pathData="M54,38 A14,14 0 1,1 53.99,38 Z" />
+        <!-- Clock hands inside coin -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="2.5"
+            android:strokeLineCap="round"
+            android:pathData="M54,52 L54,44 M54,52 L61,52" />
+        <!-- Sparkling stars -->
+        <path
+            android:fillColor="#FDE047"
+            android:pathData="M28,34 L30,39 L35,40 L31,44 L32,49 L28,46 L24,49 L25,44 L21,40 L26,39 Z" />
+        <path
+            android:fillColor="#34D399"
+            android:pathData="M80,62 L81.5,65.5 L85,66 L82,69 L83,72.5 L80,70.5 L77,72.5 L78,69 L75,66 L78.5,65.5 Z" />
+        <!-- Small Home/Tidy broom icon indicator -->
+        <path
+            android:fillColor="#60A5FA"
+            android:pathData="M50,82 L58,82 A2,2 0 0,1 60,84 L60,85 A2,2 0 0,1 58,87 L50,87 A2,2 0 0,1 48,85 L48,84 A2,2 0 0,1 50,82 Z" />
+    </group>
+</vector>

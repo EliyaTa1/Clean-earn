@@ -1,0 +1,6 @@
+{
+  "name": "מסדרים ומרוויחים",
+  "description": "משחק חווייתי לילדים הממיר מטלות וסדר בבית לזמן מסך עם בקרת הורים מלאה",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
